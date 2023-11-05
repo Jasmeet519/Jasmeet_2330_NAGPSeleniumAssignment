@@ -1,0 +1,6 @@
+itemInfo=//*[@id='layer_cart_product_@@itemDetail@@']
+successMsg=//div[@id="layer_cart"]//i[@class="icon-ok"]/parent::h2
+continueShoppingBtn=//div[@class='button-container']/span/span[normalize-space()='Continue shopping']
+countOfProductsInCart=//div[@class="shopping_cart"]/a/b[text()="Cart"]/following-sibling::span[1]
+cartInfo=//div[@class="shopping_cart"]//div[@class='cart-info']/*
+cartPrice=//div[@class="shopping_cart"]//div[@class='cart-prices']//span[contains(@class,"@@priceType@@")]

@@ -1,0 +1,3 @@
+pageLocator=//*[@class='cat-name' and contains(text(),"@@categoryName@@")]
+itemImage=//div[@class='product-container']//a[@title="@@itemName@@"]/img
+addToCartBtn=//a[@title='@@itemName@@']/ancestor::div[@class='product-container']//div[@class='button-container']/a/span[text()='Add to cart']

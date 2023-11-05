@@ -1,0 +1,52 @@
+[INFO ] 2022-06-11 22:36:10.054 com.nagarro.testclient.TestClient - Value of 'browser' key in config file is: chrome
+[INFO ] 2022-06-11 22:36:10.083 com.nagarro.testclient.TestClient - Value of 'headlessBrowser' key in config file is: false
+[INFO ] 2022-06-11 22:36:10.088 com.nagarro.base.Driver - Initializing Chrome Driver...
+[INFO ] 2022-06-11 22:36:13.014 com.nagarro.utils.Helper - Reading '/locators/homepage.locators' file...
+[INFO ] 2022-06-11 22:36:13.016 com.nagarro.pageobjects.HomePage - Opening url: http://automationpractice.com/index.php
+[INFO ] 2022-06-11 22:36:29.213 com.nagarro.utils.Helper - Reading '/locators/topMenu.locators' file...
+[INFO ] 2022-06-11 22:36:38.469 com.nagarro.utils.Helper - Reading '/locators/loginPage.locators' file...
+[INFO ] 2022-06-11 22:36:38.528 com.nagarro.pageobjects.LoginPage - Entering value in text field: jasmeet.chadha@nagarro.com
+[INFO ] 2022-06-11 22:36:38.760 com.nagarro.pageobjects.LoginPage - Entering value in text field: Passw0rd
+[INFO ] 2022-06-11 22:36:46.282 com.nagarro.utils.Helper - Reading '/locators/topMenu.locators' file...
+[INFO ] 2022-06-11 22:36:56.236 com.nagarro.utils.Helper - Reading '/locators/productPage.locators' file...
+[INFO ] 2022-06-11 22:36:56.311 com.nagarro.pageobjects.ProductPage - Adding Item 'Faded Short Sleeve T-shirts' to cart
+[INFO ] 2022-06-11 22:36:56.615 com.nagarro.utils.Helper - Reading '/locators/shoppingCartPage.locators' file...
+[INFO ] 2022-06-11 22:37:01.731 com.nagarro.tests.AddToCartTest - Validating: Item detail for 'quantity' is: 1
+[INFO ] 2022-06-11 22:37:01.766 com.nagarro.tests.AddToCartTest - Validating: Item detail for 'price' is: $16.51
+[INFO ] 2022-06-11 22:37:01.801 com.nagarro.tests.AddToCartTest - Validating: Item detail for 'attributes' is: Orange, S
+[INFO ] 2022-06-11 22:37:01.837 com.nagarro.tests.AddToCartTest - Validating: Item detail for 'title' is: Faded Short Sleeve T-shirts
+[INFO ] 2022-06-11 22:37:07.456 com.nagarro.pageobjects.ShoppingCartPage - Cart info is: {product-name1=1 X Faded Shor..., product-atributes1=Orange, S, price1=$16.51}
+[INFO ] 2022-06-11 22:37:07.456 com.nagarro.tests.AddToCartTest - [Shopping Cart Block]: Validating Item info for 'product-name1' is: 1 X Faded
+[INFO ] 2022-06-11 22:37:07.456 com.nagarro.tests.AddToCartTest - [Shopping Cart Block]: Validating Item info for 'product-atributes1' is: Orange, S
+[INFO ] 2022-06-11 22:37:07.456 com.nagarro.tests.AddToCartTest - [Shopping Cart Block]: Validating Item info for 'price1' is: $16.51
+[INFO ] 2022-06-11 22:37:07.456 com.nagarro.tests.AddToCartTest - [Shopping Cart Block]: Validating Item price for 'cart_total' is: $18.51
+[INFO ] 2022-06-11 22:37:07.508 com.nagarro.tests.AddToCartTest - [Shopping Cart Block]: Validating Item price for 'cart_shipping_cost' is: $2.00
+[INFO ] 2022-06-11 22:37:12.380 com.nagarro.utils.Helper - Reading '/locators/checkoutPage.locators' file...
+[INFO ] 2022-06-11 22:37:12.387 com.nagarro.utils.Helper - Reading '/locators/topMenu.locators' file...
+[INFO ] 2022-06-11 22:37:12.387 com.nagarro.utils.Helper - Reading '/locators/shoppingCartPage.locators' file...
+[INFO ] 2022-06-11 22:37:12.470 com.nagarro.pageobjects.CheckoutPage - Color: rgba(32, 137, 49, 1)
+[INFO ] 2022-06-11 22:37:12.506 com.nagarro.pageobjects.CheckoutPage - Color: rgba(32, 137, 49, 1)
+[INFO ] 2022-06-11 22:37:12.678 com.nagarro.pageobjects.CheckoutPage - Cart Description is: Faded Short Sleeve T-shirts;SKU : demo_1;Color : Orange, Size : S
+[INFO ] 2022-06-11 22:37:12.828 com.nagarro.pageobjects.CheckoutPage - Cart Quantity is: 1
+[INFO ] 2022-06-11 22:37:12.936 com.nagarro.pageobjects.CheckoutPage - Product info is: {cart_product1=null, cart_description1=Faded Short Sleeve T-shirts;SKU : demo_1;Color : Orange, Size : S, cart_avail1=In stock, cart_unit1=$16.51, cart_quantity1=1, cart_total1=$16.51, cart_delete1=null}
+[INFO ] 2022-06-11 22:37:12.937 com.nagarro.tests.AddToCartTest - [Checkout Form]: Validating Item Details for 'cart_description1' is: Faded Short Sleeve T-shirts;SKU : demo_1;Color : Orange, Size : S
+[INFO ] 2022-06-11 22:37:12.937 com.nagarro.tests.AddToCartTest - [Checkout Form]: Validating Item Details for 'cart_unit1' is: $16.51
+[INFO ] 2022-06-11 22:37:12.937 com.nagarro.tests.AddToCartTest - [Checkout Form]: Validating Item Details for 'cart_total1' is: $16.51
+[INFO ] 2022-06-11 22:37:12.938 com.nagarro.tests.AddToCartTest - [Checkout Form]: Validating Item Details for 'cart_avail1' is: In stock
+[INFO ] 2022-06-11 22:37:12.938 com.nagarro.tests.AddToCartTest - [Checkout Form]: Validating Item Details for 'cart_quantity1' is: 1
+[INFO ] 2022-06-11 22:37:12.938 com.nagarro.tests.AddToCartTest - [Checkout Form]: Validating Cart Price Summary for 'Total shipping' is: $2.00
+[INFO ] 2022-06-11 22:37:12.973 com.nagarro.tests.AddToCartTest - [Checkout Form]: Validating Cart Price Summary for 'Total products' is: $16.51
+[INFO ] 2022-06-11 22:37:13.005 com.nagarro.tests.AddToCartTest - [Checkout Form]: Validating Cart Price Summary for 'Total' is: $18.51
+[INFO ] 2022-06-11 22:37:13.043 com.nagarro.tests.AddToCartTest - [Checkout Form]: Validating Cart Price Summary for 'Tax' is: $0.74
+[ERROR] 2022-06-11 22:37:33.516 com.nagarro.listeners.ScreenshotListener - onTestFailure - TEST_FAILURE: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: button_order_cart (tried for 20 second(s) with 5000 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'IN-70TZ9K3', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+[ERROR] 2022-06-11 22:37:33.856 com.nagarro.listeners.ScreenshotListener - Failed to save screenshot...
+[ERROR] 2022-06-11 22:37:33.856 com.nagarro.listeners.ScreenshotListener - onTestFailure - TEST_FAILURE: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: button_order_cart (tried for 20 second(s) with 5000 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'IN-70TZ9K3', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+[INFO ] 2022-06-11 22:37:34.161 com.nagarro.listeners.ScreenshotListener - Screenshot saved successfully at path- C:\Users\jasmeet2330\Desktop\NAGPAssignment\NAGPAssignment\htmlReports\reports\Current Test Report\20220611_223609\Screenshot_20220611_223733_verifyRemoveItemDetailsFromCheckoutForm.png
+[INFO ] 2022-06-11 22:37:34.161 com.nagarro.listeners.ScreenshotListener - PATH: C:\Users\jasmeet2330\Desktop\NAGPAssignment\NAGPAssignment\htmlReports\reports\Current Test Report\20220611_223609\Screenshot_20220611_223733_verifyRemoveItemDetailsFromCheckoutForm.png
+[INFO ] 2022-06-11 22:37:34.161 com.nagarro.base.Driver - Closing all window tabs

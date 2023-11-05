@@ -1,0 +1,7 @@
+productInfoForRow=//div[@id="order-detail-content"]/*[@id="cart_summary"]/tbody/tr[@@row@@]/td
+productDescription=//div[@id="order-detail-content"]/*[@id="cart_summary"]/tbody/tr[@@row@@]/td[@class="cart_description"]
+productQuantity=//div[@id="order-detail-content"]/*[@id="cart_summary"]/tbody/tr[@@row@@]/td[contains(@class,"cart_quantity")]/input
+currentHeader=//div[@id="center_column"]/ul/li[contains(@class,"step_current")]
+cartPriceSummary=//table[@id="cart_summary"]/tfoot//td[text()="@@label@@"]/following-sibling::td
+deleteBtnOnItem=//table[@id="cart_summary"]//tr/td/p[@class='product-name' and normalize-space()="@@productName@@"]/ancestor::tr/td[contains(@class,'cart_delete')]/div
+emptyCartMsg=//div[@id='center_column']/p[contains(@class,'alert') and text()='Your shopping cart is empty.']

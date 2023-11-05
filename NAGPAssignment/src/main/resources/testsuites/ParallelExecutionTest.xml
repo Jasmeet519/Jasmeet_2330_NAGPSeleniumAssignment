@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParallelSuite" thread-count="3" parallel="classes" >
+
+    <listeners>
+        <listener class-name="com.nagarro.listeners.ReportListener"></listener>
+    </listeners>
+
+    <test name="AllRegressionTest">
+        <classes>
+            <class name="com.nagarro.tests.LoginValidationTest">
+                <methods>
+                    <include name="verifyInvalidUserCredentials"/>
+                    <include name="verifyAccountCannotBeCreatedWithAlreadyRegisteredEmail"/>
+                    <include name="verifyValidUserCredentials"/>
+                </methods>
+            </class>
+
+            <class name="com.nagarro.tests.AddToCartTest">
+                <methods>
+                    <include name="addItemToCart"/>
+                    <include name="verifyItemDetailsOnCartBlock"/>
+                    <include name="verifyItemDetailsOnCheckoutForm"/>
+                    <include name="verifyRemoveItemDetailsFromCheckoutForm"/>
+                </methods>
+            </class>
+
+            <class name="com.nagarro.tests.AddressTest">
+                <methods>
+                    <include name="verifyAddressDetailOnLoggedInUser"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->

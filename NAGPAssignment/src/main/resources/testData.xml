@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testdata>
+    <APP_localhost>
+        <ValidUserLoginTestData>
+            <welcomeText>Welcome to your account. Here you can manage all of your personal information and orders.</welcomeText>
+        </ValidUserLoginTestData>
+        <AlreadyRegisterEmailAddressTestData>
+            <errorMsg>An account using this email address has already been registered. Please enter a valid password or request a new one.</errorMsg>
+        </AlreadyRegisterEmailAddressTestData>
+
+        <ItemDetailsInCartTestData>
+            <ItemDetailsInCartDialog>
+                <title>Faded Short Sleeve T-shirts</title>
+                <attributes>Orange, S</attributes>
+                <quantity>1</quantity>
+                <price>$16.51</price>
+            </ItemDetailsInCartDialog>
+            <successMsg>Product successfully added to your shopping cart</successMsg>
+            <productCountInCart>1</productCountInCart>
+
+            <ItemInfoInShoppingCartBlock>
+                <product-name1>1 X Faded</product-name1>
+                <product-atributes1>Orange, S</product-atributes1>
+                <price1>$16.51</price1>
+            </ItemInfoInShoppingCartBlock>
+            <ItemPriceInShoppingCartBlock>
+                <cart_shipping_cost>$2.00</cart_shipping_cost>
+                <cart_total>$18.51</cart_total>
+            </ItemPriceInShoppingCartBlock>
+        </ItemDetailsInCartTestData>
+
+        <ItemDetailsInCheckoutFormTestData>
+            <ItemDetailsInCheckoutForm>
+                <cart_description1>Faded Short Sleeve T-shirts;SKU : demo_1;Color : Orange, Size : S</cart_description1>
+                <cart_avail1>In stock</cart_avail1>
+                <cart_unit1>$16.51</cart_unit1>
+                <cart_quantity1>1</cart_quantity1>
+                <cart_total1>$16.51</cart_total1>
+            </ItemDetailsInCheckoutForm>
+
+
+            <CartPriceSummaryTestData>
+                <CartPriceSummaryDetails>
+                    <Total_products>$16.51</Total_products>
+                    <Total_shipping>$2.00</Total_shipping>
+                    <Total>$18.51</Total>
+                    <Tax>$0.74</Tax>
+                </CartPriceSummaryDetails>
+                <total_amount_to_be_paid>$19.25</total_amount_to_be_paid>
+            </CartPriceSummaryTestData>
+
+        </ItemDetailsInCheckoutFormTestData>
+
+        <AddressValidationTestData>
+            <addressDetails>TEST ADDRESS; Jasmeet Chadha; 519, Metro view Apartment; Dwarka, Alabama 11007; United States; 9654668016</addressDetails>
+        </AddressValidationTestData>
+    </APP_localhost>
+</testdata>
+

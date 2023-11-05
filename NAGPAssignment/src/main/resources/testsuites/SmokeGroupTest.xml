@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTestSuite">
+
+    <groups>
+        <run>
+            <include name="smoke"></include>
+        </run>
+    </groups>
+
+    <listeners>
+        <listener class-name="com.nagarro.listeners.ReportListener"></listener>
+    </listeners>
+
+    <test name="SmokeTest" thread-count="2" parallel="classes">
+        <classes>
+            <class name="com.nagarro.tests.LoginValidationTest"/>
+            <class name="com.nagarro.tests.AddToCartTest"/>
+            <class name="com.nagarro.tests.AddressTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
